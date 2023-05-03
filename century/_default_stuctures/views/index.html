@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock %}
+
+{% block style %}
+<style>
+    body {
+        background-color: rgba(82, 248, 165, 0.788);
+        color: #222222;
+    }
+    .container {
+        margin-top: 20%;
+        text-align: center;
+        animation: jump 1s ease-in-out infinite alternate;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    @keyframes jump {
+        0% {
+            transform: translateY(0);
+            color: #222222;
+        }
+        100% {
+            transform: translateY(-20px);
+            color: rgb(151, 38, 38);
+        }
+    }
+
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <h1>Welcome to Century!</h1>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script>
+    console.log('Hello World from "Century"!');
+</script>
+{% endblock %}

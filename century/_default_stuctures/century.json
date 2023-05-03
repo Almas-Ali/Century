@@ -1,0 +1,10 @@
+{
+ 
+    "APP": {
+        "NAME": "app",
+        "PATH": "app",
+        "SETTINGS": "app/settings.py"
+    }
+
+
+}
