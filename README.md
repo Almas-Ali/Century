@@ -1,4 +1,4 @@
-# Century - A flask based web application manager
+# Century - A MVC framework for flask
 
 Century helps you to manage your flask based web application easily and manipulate with just few commands. This makes your work easier and faster working with flask and worked as MVC framework. It is a CLI based application. It is a open source project and you can contribute to this project.
 
