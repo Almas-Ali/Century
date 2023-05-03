@@ -18,10 +18,13 @@ python setup.py install
 ## Usage
 
 ```bash
-# create a new project
+# Create a new project
 century init <project_name>
 
-# run the project
+# Change directory to the project
+cd <project_name>
+
+# Run the project
 century run
 ```
 
